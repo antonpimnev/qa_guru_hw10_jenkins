@@ -1,6 +1,9 @@
 package tests;
+
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
+
+import static io.qameta.allure.Allure.step;
 
 public class DemoqaTests extends TestBase {
 
@@ -24,32 +27,38 @@ public class DemoqaTests extends TestBase {
             userCity = "Delhi";
 
     @Test
-    void fillFormTest() {
-        registrationPage.openPage()
-                .setFirstName(userFirstName)
-                .setLastName(userLastName)
-                .setEmail(userEmail)
-                .setGender(userGender)
-                .setUserNumber(userNumber)
-                .setBDate(userBDay, userBMonth, userBYear)
-                .setSubject(userSubject)
-                .setHobbies(userHobbies)
-                .uploadPicture(userPicture)
-                .setAdress(userAddress)
-                .setState(userState)
-                .setCity(userCity)
-                .clickSubmit()
-                .verifyResultsModalAppears()
-                .verifyResult("Student Name", userFirstName+" "+userLastName)
+    void succesfulFillFormTest() {
+        step("Open registrations form", () -> {
+            registrationPage.openPage();
+        });
+        step("Fill form", () -> {
+            registrationPage.setFirstName(userFirstName)
+                    .setLastName(userLastName)
+                    .setEmail(userEmail)
+                    .setGender(userGender)
+                    .setUserNumber(userNumber)
+                    .setBDate(userBDay, userBMonth, userBYear)
+                    .setSubject(userSubject)
+                    .setHobbies(userHobbies)
+                    .uploadPicture(userPicture)
+                    .setAdress(userAddress)
+                    .setState(userState)
+                    .setCity(userCity)
+                    .clickSubmit();
+        });
+        step("Check form results", () -> {
+            registrationPage.verifyResultsModalAppears()
+                .verifyResult("Student Name", userFirstName + " " + userLastName)
                 .verifyResult("Student Email", userEmail)
                 .verifyResult("Gender", userGender)
                 .verifyResult("Mobile", userNumber)
-                .verifyResult("Date of Birth", userBDay+ " " +userBMonth +"," +userBYear)
+                .verifyResult("Date of Birth", userBDay + " " + userBMonth + "," + userBYear)
                 .verifyResult("Subjects", userSubject)
                 .verifyResult("Hobbies", userHobbies)
                 .verifyResult("Picture", userPictureResult)
                 .verifyResult("Address", userAddress)
-                .verifyResult("State and City", userState+" "+userCity)
+                .verifyResult("State and City", userState + " " + userCity)
                 .clickClose();
+        });
     }
 }
