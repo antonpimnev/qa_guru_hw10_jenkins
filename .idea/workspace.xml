@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="417580eb-a0e7-4f50-b719-48b2b1d95d09" name="Changes" comment="added properties" />
+    <list default="true" id="417580eb-a0e7-4f50-b719-48b2b1d95d09" name="Changes" comment="build.gradle update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +177,7 @@
       <updated>1670862060233</updated>
       <workItem from="1670862062660" duration="7001000" />
       <workItem from="1671206573510" duration="596000" />
-      <workItem from="1672075359796" duration="2485000" />
+      <workItem from="1672075359796" duration="3311000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1670863003975</created>
@@ -205,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672077851965</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="build.gradle update">
+      <created>1672077954038</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672077954038</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +237,7 @@
     <MESSAGE value="2" />
     <MESSAGE value="small refactor" />
     <MESSAGE value="added properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="added properties" />
+    <MESSAGE value="build.gradle update" />
+    <option name="LAST_COMMIT_MESSAGE" value="build.gradle update" />
   </component>
 </project>
