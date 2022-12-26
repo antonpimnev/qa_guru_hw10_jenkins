@@ -47,3 +47,34 @@ tasks.withType(Test) {
     }
 }
 
+task smoke_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags("smoke")
+    }
+}
+
+task one_property_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("one_property")
+    }
+}
+
+task hello_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("hello")
+    }
+}
+
+task two_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("one_property")
+        includeTags("hello")
+    }
+}
+
+task tag_example_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("needed", "negative")
+        excludeTags("prod")
+    }
+}
