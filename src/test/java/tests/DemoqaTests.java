@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 
@@ -27,6 +28,7 @@ public class DemoqaTests extends TestBase {
             userCity = "Delhi";
 
     @Test
+    @Tag("feature_test")
     void succesfulFillFormTest() {
         step("Open registrations form", () -> {
             registrationPage.openPage();

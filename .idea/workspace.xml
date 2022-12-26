@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="417580eb-a0e7-4f50-b719-48b2b1d95d09" name="Changes" comment="build.gradle update">
+    <list default="true" id="417580eb-a0e7-4f50-b719-48b2b1d95d09" name="Changes" comment="Attach update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DemoqaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DemoqaTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +179,7 @@
       <updated>1670862060233</updated>
       <workItem from="1670862062660" duration="7001000" />
       <workItem from="1671206573510" duration="596000" />
-      <workItem from="1672075359796" duration="3311000" />
+      <workItem from="1672075359796" duration="4212000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1670863003975</created>
@@ -214,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672077954038</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Attach update">
+      <created>1672078976197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672078976197</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +247,7 @@
     <MESSAGE value="small refactor" />
     <MESSAGE value="added properties" />
     <MESSAGE value="build.gradle update" />
-    <option name="LAST_COMMIT_MESSAGE" value="build.gradle update" />
+    <MESSAGE value="Attach update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attach update" />
   </component>
 </project>
