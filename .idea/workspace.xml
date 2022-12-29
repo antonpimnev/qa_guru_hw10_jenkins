@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="417580eb-a0e7-4f50-b719-48b2b1d95d09" name="Changes" comment="Minor update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="417580eb-a0e7-4f50-b719-48b2b1d95d09" name="Changes" comment="First comm of branch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +62,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="properties" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,7 +176,7 @@
       <workItem from="1670862062660" duration="7001000" />
       <workItem from="1671206573510" duration="596000" />
       <workItem from="1672075359796" duration="5029000" />
-      <workItem from="1672340541179" duration="46000" />
+      <workItem from="1672340541179" duration="833000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1670863003975</created>
@@ -229,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672079800744</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="First comm of branch">
+      <created>1672340758797</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672340758797</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +260,7 @@
     <MESSAGE value="build.gradle update" />
     <MESSAGE value="Attach update" />
     <MESSAGE value="Minor update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor update" />
+    <MESSAGE value="First comm of branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="First comm of branch" />
   </component>
 </project>
